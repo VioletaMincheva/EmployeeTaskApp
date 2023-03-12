@@ -1,1 +1,32 @@
-Documentation
+Documentation:
+
+In this program are defined four classes named "Employee", "Task", "ExceptionMessages" and "EmployeeAppRun" and three files for input and output database.
+
+1.	In the class "Employee" are defined some variables which represent the employee’s properties. These variables are as follows:
+•	monthlySalary of Double type
+•	fullName, email, phoneNumber, dateOfBirth of String type.
+In this class are created constructor, getters and setters functions for each property of the employees to fetch and assign the values. In setter methods are declared functionalities that are allowed to relevant field. There are also created one function namely: ‘toString()’. This function invokes when we print the class’s object. 
+
+2.	In the class "Task" are defined some variables which represent the task’s properties. These variables are as follows:
+•	Title, description, assignedEmployeeFullName, dueDate, statusCompleted of String type.
+
+In this class are created constructor, getters and setters functions for each property of the task to fetch and assign the values. In setter methods are declared functionalities that are allowed to relevant field. There are also created one function namely: ‘toString()’. This function invokes when we print the class’s object. 
+
+3.	In the class “ExceptionMessages” are defined some exception messages related to setter methods in classes “Employee” and “Task”. 
+
+4.	Class “EmployeeAppRun” is the main class where are defined all functionalities and methods. 
+
+•	Create, read, update and delete Employees
+•	Create, read, update and delete Tasks related to employees
+•	Display 5 employees who completed the largest number of tasks in the past month
+•	Display employees who have birthday in fixed month
+•	Display all employees who have monthly salary in fixed range
+5.	There are three files needed to the app is running. They are of type .txt
+•	InputEmployeeApp
+•	InputTaskApp
+•	OutputEmployeeApp
+
+6.	How to run?
+
+It is necessary to download .text files – InputEmployeeApp, InputTaskApp and OutputEmployeeApp to your desktop and put .java files - "Employee", "Task", "ExceptionMessages" and "EmployeeAppRun" to your IDE (this app is created by using IntelJ IDEA). Then Run Class “EmployeeAppRun”. Then should shown all related information described in this assignment.
+
